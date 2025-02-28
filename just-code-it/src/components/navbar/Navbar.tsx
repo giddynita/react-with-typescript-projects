@@ -25,7 +25,7 @@ function Navbar() {
   const navbarStyle = showNavbar ? 'translate-y-0' : '-translate-y-full'
   return (
     <nav
-      className={`h-16 bg-white transition transition-300 fixed top-0 w-full z-50 ${navbarStyle}`}
+      className={`h-18 bg-white transition transition-300 fixed top-0 w-full z-50 ${navbarStyle}`}
     >
       <Container display="flex justify-between items-center h-full">
         <div className="flex gap-1 md:gap-2 items-center ">

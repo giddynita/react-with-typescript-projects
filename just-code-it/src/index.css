@@ -8,12 +8,11 @@
 }
 
 .hero::before {
-  background-image: url('./assets/images/hero_bg.PNG');
+  background-image: url('./assets/images/hero_bg.jpg');
   background-size: cover;
   background-position: right;
   z-index: -1;
   filter: brightness(0.5) blur(2.5px);
-  clip-path: inset(0 0 0 0);
   top: -10px;
   left: -10px;
   width: calc(100% + 20px);
