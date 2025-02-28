@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@theme {
+  --color-custompurple: #6415d0;
+  --color-basepurple: #eaeaf6;
+  --color-baseforeground: #37365e;
+  --color-basewhite: #fff;
+  --color-whiteforeground: #000;
+}
+
+.hero::before {
+  background-image: url('./assets/images/hero_bg.PNG');
+  background-size: cover;
+  background-position: right;
+  z-index: -1;
+  filter: brightness(0.5) blur(2.5px);
+  clip-path: inset(0 0 0 0);
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+}
